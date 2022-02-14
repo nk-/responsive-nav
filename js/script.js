@@ -110,7 +110,7 @@ const anchorTriggers = (viewport, reset) => {
   // if (window.hasOwnProperty('zenscroll')) {
   //  zenscroll.setup(scrollOptions.duration, scrollOptions.offset);
   // }
-  let first = false;
+
   nav.querySelectorAll('ul li a').forEach((trigger, index) => {
 
     let top;
