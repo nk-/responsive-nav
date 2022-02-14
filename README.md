@@ -9,6 +9,6 @@ code/logic for portrait viewports where as, with just a little JavaScript and CS
 ## Preview in browser
 
 - Clone this repository
-- Get "zenscroll-min.js" from its repository and place it in "js" folder
+- Get "zenscroll-min.js" from its [repository](https://github.com/zengabor/zenscroll) and place it in "js" folder
 
 ![Poster image](Poster.png)
