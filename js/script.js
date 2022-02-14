@@ -107,7 +107,7 @@ const processIcon = (parent, icon) => {
 
 const anchorTriggers = (viewport, reset) => {
 
-  // if (zenscroll !== 'undefined') {
+  // if (window.hasOwnProperty('zenscroll')) {
   //  zenscroll.setup(scrollOptions.duration, scrollOptions.offset);
   // }
   let first = false;
