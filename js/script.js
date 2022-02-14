@@ -188,8 +188,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Watch our sections.
 	  document.querySelectorAll('section[id]').forEach((section) => {
-		  observer.observe(section);
-	  });
+      observer.observe(section);
+    });
 
     let reset = false;
 
@@ -198,12 +198,10 @@ window.addEventListener('DOMContentLoaded', () => {
   }
   // Desktop
   else {
-
     // Watch our sections.
-	  document.querySelectorAll('section[id]').forEach((section) => {
-		  observer.observe(section);
-	  });
-
+    document.querySelectorAll('section[id]').forEach((section) => {
+      observer.observe(section);
+    });
     anchorTriggers('desktop');
   }
 
